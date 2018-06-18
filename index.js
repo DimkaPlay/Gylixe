@@ -1,6 +1,7 @@
-const Discord=require('discord.js');
-const bot = new Discord.Client();
-
+const Discord = require('discord.js');
+const request = require('request');
+const robot = new Discord.Client();
+var p = "^"
 
 bot.on('message',(message)=> {
 if(message.content== "^help") { 
