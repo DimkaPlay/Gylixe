@@ -16,10 +16,4 @@ message.channel.send("***^help-помощь по командам***");
 }
 });
 
-bot.on('message',(message)=> {
-    if(message.content== "^author") { 
-    message.channel.send("***автор бота*** @!428036906723573760");
-    }
-    });
-
 bot.login(process.env.BOT_TOKEN);
