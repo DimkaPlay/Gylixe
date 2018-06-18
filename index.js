@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const request = require('request');
-const robot = new Discord.Client();
+const bot = new Discord.Client();
 var p = "^"
 
-robot.on('ready', () => {
+bot.on('ready', () => {
     robot.user.setActivity('loading..',{ type: "PLAYING" })
     robot.user.setStatus('dnd')
     setTimeout(status1, 16000)
