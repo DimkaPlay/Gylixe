@@ -22,4 +22,4 @@ bot.on('message',(message)=> {
     }
     });
 
-robot.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
